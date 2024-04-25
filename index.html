@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity Tracker</title>
+    <link href="./src/sass/style.css" rel="stylesheet" />
+    <script defer src="./src/js/controller.js" type="module" />
+
+  </head>
+  <body>
+    <header>
+      <div class="header-wrapper">
+        <a href="#" class="brand">Activity-Tracker</a>
+        <nav class="nav">
+          <a href="#">About</a><a href="#">Blog</a><a href="#">Login</a>
+        </nav>
+      </div>
+    </header>
+    <div class="main-content">
+      <div class="user-info" id="userInfo">
+        <div class="profile square-info" id="profileInfo">
+
+        </div>
+        <div class="today-info square-info">02/May/2024</div>
+        <div id="activities"></div>
+      </div>
+      <div class="tracker">
+        <div id="map"></div>
+      </div>
+    </div>
+    <div class="modal" id="modal-one"><div class="modal-bg modal-exit"></div>
+    <div class="modal-container">
+      <h2>New Activity</h2>
+      <form id="addActivityForm">  
+        <h4>Acitivty:</h4>  
+        <input type="text" id="activity" name="activity" placeholder="Enter your activity name"/>  
+        <h4>Duration</h4>  
+        <input type="number" id="duration" name="duration" placeholder="Enter your activity's duration"/></br></br>  
+        <input type="submit" value="Add" id="submitActivity"/>  
+        </form>
+      <button class="modal-close modal-exit">X</button>
+    </div></div>
+  </body>
+</html>

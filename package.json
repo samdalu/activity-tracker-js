@@ -1,0 +1,18 @@
+{
+  "name": "s-activity-tracker",
+  "version": "1.0.0",
+  "description": "POC application for practicing JS, allows users to log their activities",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Salim",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4"
+  }
+}
