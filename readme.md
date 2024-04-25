@@ -16,24 +16,24 @@ TBD...
 
 Below is a checklist of tasks completed and those yet to be done:
 
-[x] Folder Structure
-[x] Set MVC for current progress
-[x] Draw diagram
-[x] update map popup
-[x] Move map to view
-[x] Move modal to view
-[x] move add activity button to view
-[] user Info popup
-[] set fitness goals
-[] enhance CSS for popup
-[] Add form validation
-[] Figure out map input
-[] update map height
-[] Clean up code
-[] JSDoc
-[x] git
-[] update read me
-[x] gitIgnore
+- [x] Folder Structure
+- [x] Set MVC for current progress
+- [x] Draw diagram
+- [x] update map popup
+- [x] Move map to view
+- [x] Move modal to view
+- [x] move add activity button to view
+- [] user Info popup
+- [] set fitness goals
+- [] enhance CSS for popup
+- [] Add form validation
+- [] Figure out map input
+- [] update map height
+- [] Clean up code
+- [] JSDoc
+- [x] git
+- [x] update read me
+- [x] gitIgnore
 
 ## Future features:
 
